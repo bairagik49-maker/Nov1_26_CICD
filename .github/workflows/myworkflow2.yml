@@ -1,1 +1,9 @@
+name: myworkflow2
 
+on:
+  push:
+
+job:
+  myjobs1:
+  step:
+    - name: ubuntu
